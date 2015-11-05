@@ -17,7 +17,6 @@
 		844C4FD60DC7C1040096AF88 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 844C4FD20DC7C1040096AF88 /* icon.png */; };
 		844C4FD70DC7C1040096AF88 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 844C4FD30DC7C1040096AF88 /* image1.jpg */; };
 		844C4FD80DC7C1040096AF88 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 844C4FD40DC7C1040096AF88 /* image2.jpg */; };
-		844C4FDC0DC7C1670096AF88 /* TransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844C4FDB0DC7C1670096AF88 /* TransitionView.m */; };
 		844C4FE20DC7C2B00096AF88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844C4FE10DC7C2B00096AF88 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +34,6 @@
 		844C4FD20DC7C1040096AF88 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		844C4FD30DC7C1040096AF88 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		844C4FD40DC7C1040096AF88 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
-		844C4FDA0DC7C1670096AF88 /* TransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionView.h; sourceTree = "<group>"; };
-		844C4FDB0DC7C1670096AF88 /* TransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionView.m; sourceTree = "<group>"; };
 		844C4FE10DC7C2B00096AF88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		84A6F33A0DC7D2120094010B /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,8 +57,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				844C4FDA0DC7C1670096AF88 /* TransitionView.h */,
-				844C4FDB0DC7C1670096AF88 /* TransitionView.m */,
 				1D3623240D0F684500981E51 /* ViewTransitionsAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ViewTransitionsAppDelegate.m */,
 			);
@@ -181,7 +176,6 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ViewTransitionsAppDelegate.m in Sources */,
-				844C4FDC0DC7C1670096AF88 /* TransitionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +217,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator2.0;
+				SDKROOT = iphoneos3.0;
 			};
 			name = Debug;
 		};
@@ -237,7 +231,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator2.0;
+				SDKROOT = iphoneos3.0;
 			};
 			name = Release;
 		};

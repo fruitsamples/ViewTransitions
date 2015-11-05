@@ -9,12 +9,12 @@ To try out the sample, build it using Xcode and run it in the simulator or on th
 ================================================================================
 BUILD REQUIREMENTS:
 
-Mac OS X 10.5.3, Xcode 3.1, iPhone OS 2.0
+iPhone SDK 3.0
 
 ================================================================================
 RUNTIME REQUIREMENTS:
 
-Mac OS X 10.5.3, iPhone OS 2.0
+iPhone OS 3.0
 
 ================================================================================
 PACKAGING LIST:
@@ -23,15 +23,14 @@ AppDelegate.h
 AppDelegate.m
 The UIApplication delegate class, the central controller of the application.
 
-TransitionView.h
-TransitionView.m
-A class that animates the replacement of one view with another view using CoreAnimation transitions.
-
 main.m
 The main entry point for the ViewTransitions application.
 
 ================================================================================
 CHANGES FROM PREVIOUS VERSIONS:
+
+Version 1.7
+- Eliminated the TransitionView class. The code for creating and adding the transition is now in -performTransition in the ViewTransitionsAppDelegate. Now requires the iPhone 3.0 SDK.
 
 Version 1.6
 - Updated for and tested with iPhone OS 2.0. First public release.
@@ -57,4 +56,4 @@ Version 1.1
 - Updated for Beta 2.
 
 ================================================================================
-Copyright (C) 2008 Apple Inc. All rights reserved.
+Copyright (C) 2008-9 Apple Inc. All rights reserved.
