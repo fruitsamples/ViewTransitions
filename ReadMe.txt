@@ -9,12 +9,12 @@ To try out the sample, build it using Xcode and run it in the simulator or on th
 ================================================================================
 BUILD REQUIREMENTS:
 
-iPhone SDK 3.0
+iOS 4.0 SDK
 
 ================================================================================
 RUNTIME REQUIREMENTS:
 
-iPhone OS 3.0
+iPhone OS 3.2 or later
 
 ================================================================================
 PACKAGING LIST:
@@ -28,6 +28,12 @@ The main entry point for the ViewTransitions application.
 
 ================================================================================
 CHANGES FROM PREVIOUS VERSIONS:
+
+Version 1.9
+- Added CFBundleIconFiles in Info.plist.
+
+Version 1.8
+- Upgraded project to build with the iOS 4.0 SDK.
 
 Version 1.7
 - Eliminated the TransitionView class. The code for creating and adding the transition is now in -performTransition in the ViewTransitionsAppDelegate. Now requires the iPhone 3.0 SDK.
@@ -56,4 +62,4 @@ Version 1.1
 - Updated for Beta 2.
 
 ================================================================================
-Copyright (C) 2008-9 Apple Inc. All rights reserved.
+Copyright (C) 2008-2010 Apple Inc. All rights reserved.
